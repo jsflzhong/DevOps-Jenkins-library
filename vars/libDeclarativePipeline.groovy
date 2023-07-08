@@ -9,7 +9,7 @@ def call() {
                     echo "@@@building stage 1 ..."
                 }
             }
-            stage() {
+            stage('Stage-2') {
                 steps {
                     echo "@@@building stage 2 ..."
                 }
