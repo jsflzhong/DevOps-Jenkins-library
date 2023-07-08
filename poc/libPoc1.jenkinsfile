@@ -1,9 +1,0 @@
-// use to test the lib: lib-poc-1.groovy
-
-// Don't miss the underline in the end, it is a MUST.
-@Library('lib-poc-1@v1.0')_
-node {
-    stage ('stage-1') {
-        printLib()
-    }
-}
